@@ -39,7 +39,7 @@ sudo aptitude install libgtk2.0-dev -y
 #sudo aptitude install flashplugin-installer -y  #安装flash
 
 #Nautilus扩展（右键终端打开）
-#sudo aptitude install nautilus-open-terminal  -y
+sudo aptitude install nautilus-open-terminal  -y
 
 #sudo aptitude install wine
 #sudo aptitude install docky -y #mac任务栏
