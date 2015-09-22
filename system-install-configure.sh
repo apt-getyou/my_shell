@@ -155,7 +155,7 @@ echo "安装ubuntu tweak、音乐播放器audacious、视频播放器GNOME MPlay
 #echo "y" |sudo apt-get install gnome-mplayer 
 #echo "y" |sudo apt-get install osdlyrics 
 #echo "y" |sudo apt-get install stardict 
-echo "y" |sudo apt-get install openfetion openjdk-6-jre
+#echo "y" |sudo apt-get install openfetion openjdk-6-jre
 #echo "y" |sudo apt-get install vim-gtk
 
 echo "重要必备软件已安装完成"
@@ -166,6 +166,6 @@ sudo apt-get autormove
 sudo apt-get autoclean
 
 #echo "系统升级完成,五分钟后系统将自动关闭"
-#sudo shutdown -h +5
+sudo shutdown -h +5
 
 #脚本制作：西贤，时间：2012/08/14

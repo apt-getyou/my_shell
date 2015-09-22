@@ -4,13 +4,13 @@
 sudo apt-get install aptitude  -y
 sudo aptitude install synaptic  -y
 #sudo aptitude autoremove unity-lens-music unity-lens-photos unity-lens-gwibber unity-lens-shopping unity-lens-video -y
-sudo aptitude install compizconfig-settings-manager   --force-yes -y
+sudo aptitude install compizconfig-settings-manager -y
 #sudo aptitude install ubuntu-restricted-extras  --force-yes -y
 sudo aptitude install preload  -y
 sudo aptitude install vim -y
 
 #移除亚马逊购物滤镜
-sudo aptitude remove unity-lens-shopping  --force-yes -y
+sudo aptitude remove unity-lens-shopping -y
 
 
 sudo aptitude install g++ -y
