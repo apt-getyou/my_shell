@@ -30,22 +30,16 @@ sudo aptitude install mplayer ffmpeg  -y
 
 
 
-
-
-
-
-# 安装搜狗输入法
-#sudo aptitude remove ibus
-#sudo add-apt-repository ppa:fcitx-team/nightly
-#sudo aptitude update
-#sudo aptitude install fcitx tcitx-sogoupinyin
-#sudo im-switch-s fcitx-z default
-
-
+sudo add-apt-repository ppa:fcitx-team/nightly
 sudo add-apt-repository ppa:linrunner/tlp -y
 sudo add-apt-repository ppa:indicator-multiload/stable-daily  -y
 sudo add-apt-repository ppa:bumblebee/stable -y
 sudo aptitude update 
+
+# 安装搜狗输入法
+sudo aptitude remove ibus
+sudo aptitude install fcitx tcitx-sogoupinyin
+sudo im-switch-s fcitx-z default
 
 #安装TLP
 sudo aptitude install tlp tlp-rdw  -y
