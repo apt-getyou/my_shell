@@ -28,6 +28,12 @@ sudo aptitude install unace unrar zip unzip p7zip-full p7zip-rar sharutils rar  
 #安装播放器
 sudo aptitude install mplayer ffmpeg  -y
 
+
+
+
+
+
+
 # 安装搜狗输入法
 #sudo aptitude remove ibus
 #sudo add-apt-repository ppa:fcitx-team/nightly
